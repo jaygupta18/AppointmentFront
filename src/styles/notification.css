@@ -1,0 +1,34 @@
+@import url(app.css);
+
+.notif-section {
+  height: 70vh;
+ 
+  justify-content: flex-start;
+  color: black;
+ 
+}
+.notifications  {
+  background-color: rgb(250, 250, 250);
+}
+.notif-th {
+  /* th styles here */
+  background-color: black;
+  color: white;
+}
+.tri,tbody{
+  overflow-y: scroll;
+  z-index:0.2;
+}
+
+.notif-td {
+  /* td styles here */
+  background-color: black;
+  color: white;
+}
+.disable-btn {
+  cursor: no-drop;
+}
+
+.disable-btn:hover {
+  background-color: rgba(0, 128, 0, 0.528) !important;
+}

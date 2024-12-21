@@ -1,0 +1,93 @@
+@import url(app.css);
+
+footer {
+  background-color: var(--bold-text-color);
+  z-index: 2px;
+}
+
+.footer {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.footer h3 {
+  color: var(--light-blue);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer a {
+  color: var(--light-blue);
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+}
+.footer-links ul :hover{
+  color: rgb(58, 13, 78);
+}
+.social ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.social li {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li:hover{
+  background-color: #bcc6db;
+}
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social svg {
+  font-size: 1.3rem;
+}
+
+.facebook {
+  background-color: #cfd4df;
+}
+
+.instagram {
+  background-color: #dac3c3;
+}
+
+.youtube {
+  color:white;
+  background-color: #dac3c3;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: white;
+  background-color: black;
+ 
+  padding: 0.3rem 0;
+}
+
+.footer-bottom a {
+  color: var(--dark-blue);
+}
+
+@media screen and (max-width: 550px) {
+  .social ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}

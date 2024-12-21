@@ -1,0 +1,6 @@
+# Client-side specific
+node_modules/
+build/
+dist/
+.env
+*.log
